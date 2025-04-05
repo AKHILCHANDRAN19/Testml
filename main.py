@@ -31,7 +31,7 @@ for index, sentence in enumerate(sentences, 1):
             # Configure Pollinations with enhancement [[9]]
             image_model = pollinations.Image(
                 model="flux_3d",
-                seed="random"  # Random seed for variation
+                seed="random",  # Random seed for variation
                 width=1024,
                 height=1024,
                 enhance=True,  # Quality enhancement enabled
